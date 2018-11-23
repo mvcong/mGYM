@@ -25,6 +25,7 @@ public class DAO {
 		}
 		return list;
 	}
+//	vrgrgb
 
 	public static boolean saveOrUpdate(Object object) {
 		Session session = HibernateUtil.getSessionFactory().openSession();
